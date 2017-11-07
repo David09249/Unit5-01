@@ -1,0 +1,90 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{159, 49}, {209, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "generate_random_numbers_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Generate Random Numbers",
+          "uuid" : "374B01FD-2BAB-4CFD-9E77-FB1299790A11",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "generate_random_numbers_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{191, 352}, {146, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_average_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate Average",
+          "uuid" : "5AD99324-10D2-4458-9FDC-2C07EBC7A98B",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 416}, {415, 33}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "average_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "0FD6CCAC-9F28-4B71-B630-52760E585595",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{239, 112}, {209, 208}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "random_numbers_textview",
+          "editable" : false,
+          "frame" : "{{170, 170}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "E44A7888-D35C-4AED-8AE7-426FEE85BCBD",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
